@@ -1,0 +1,46 @@
+Practica 
+created on Mon mar 24 09:45:17 2025
+@author Jefferson
+"""
+#pi = 22/7
+#print ( pi )
+#print ("{:.2f}".format (pi))
+
+
+#///////////////////////////////////////////////////////////
+lista= [2,
+       "Dos",
+       True,
+       False,
+       58.5,]
+print(type(lista))
+print(lista[3])
+hostmanes=["R1","R2","R3","S1","S2"]
+type(hostmanes)
+#<class 'list'>
+len(hostmanes)
+['R1', 'R2' , 'R3', 'S1' , 'S2']
+hostmanes[0]
+'R1'
+hostmanes[-1]
+'S2'
+hostmanes[0]="RTR1"
+hostmanes
+['RTR1','R2','R3','S1','S2']
+del hostmanes[3]
+hostmanes
+['RTR1','R2','R3','S2']
+ipAddress =
+{"R1":"10.1.1.1","R2":"10.2.2.1","R3":"10.3.3.1"}
+type(ipAddress)
+<class 'dict'>
+ipAddress
+{'R1':'10.1.1.1','R2':'10.2.2.1','R3':'10.3.3.1'}
+ipAddress['R1']
+'10.1.1.1'
+ipAddress ["S1"]="10.1.1.10"
+ipAddress
+{'R1':'10.1.1.1','R2':'10.2.2.1','R3':'10.3.3.1','S1':'10.1.1.1O'}
+ "R3" in ipAddress
+ 
+#////////////////////////////////////////////////////////////////
